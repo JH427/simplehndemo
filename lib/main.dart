@@ -6,7 +6,6 @@ import 'package:url_launcher/url_launcher.dart';
 const String baseUrl = 'https://hacker-news.firebaseio.com/v0/';
 const String baseItemUrl = 'https://hacker-news.firebaseio.com/v0/item/';
 const String topStories = 'topstories.json';
-final storyItems = populateStories();
 
 Future<List> requestTopStories() async {
   final response = await http.get(Uri.parse('$baseUrl/$topStories'));
