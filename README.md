@@ -10,3 +10,5 @@ When tapped, a story will launch in the browser.
 
 code is in [lib>main.dart](https://github.com/JH427/simplehndemo/blob/main/lib/main.dart)
 
+![Example](example.gif)
+
